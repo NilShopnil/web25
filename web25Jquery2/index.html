@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jquery2</title>
+</head>
+<body>
+    <div class="box">
+        <input class="input" type="text" placeholder="Give your choice">
+        <a class="add" href="#">Add More</a>
+    </div>
+
+    <div class="box2">
+        <input class="input" type="text" placeholder="Give your choice">
+        <a class="add2" href="#">Add More</a>
+    </div>
+
+    <div class="box3"></div>
+
+    
+    <script src="jquery-3.6.3.min.js"></script>
+    <script>
+        $('.add').click(function(){
+            $('.box').prepend('<input type="text"/>')
+        });
+
+        $('.add2').click(function(){
+            $('.box2').after('<input type="file"/>')
+        });
+
+        $('.box3').click(function(){
+            $('.box3').toggleClass('box3a');
+        });
+
+    </script>
+</body>
+</html>

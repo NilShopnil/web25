@@ -1,0 +1,46 @@
+.box{
+    padding: 50px 20px;
+    background-color: red;
+    display: table;
+    margin: auto;
+    margin-top: 20px;
+    width: 500px;
+}
+input{
+    width: 100%;
+    border: none;
+    padding: 15px 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.add{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.box2{
+    padding: 50px 20px;
+    background-color: red;
+    display: table;
+    margin: auto;
+    margin-top: 20px;
+    width: 500px;
+}
+.add2{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.box3{
+    height: 300px;
+    width: 400px;
+    background-color: green;
+display: table;
+margin: auto;
+}
+.box3a{
+    background-color: yellow;
+}
